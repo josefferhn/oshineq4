@@ -15,6 +15,7 @@
 	--fondo-header:#000;
 	--color-negro:#000;
 	--color-negro2: #404040;
+	--fondo-footer: #ebebeb;
 }
 
 body{
@@ -80,7 +81,8 @@ header{
 	margin-bottom: 50px;
 }
 
-#services h3{
+#services h3,
+.info-what h3{
 	color: var(--color-negro2);
 	font-size: 12px;
 	text-transform: uppercase;
@@ -105,29 +107,144 @@ header{
 	margin-top: 30px;
 }
 
-#services i{
+#services i,
+.info-what i{
 	color: var(--color-verde);
 	font-size: 40px;
 	margin-bottom: 30px;
 }
 
 
+#what{
+	border-top: 1px solid #ddd;
+}
+
+.info-what{
+	margin-top: 50px;
+}
+
+
+#testimonals{
+	background-color: var(--fondo-gris);
+	text-align: center;
+}
+
+
+.testimonio{
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 10px;
+}
+.testimonio h3{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: var(--color-titulos);
+	letter-spacing: 1px;
+}
+
+.testimonio h4{
+	font-style: italic;
+	font-size: 18px;
+	font-family: 'Crimson Text';
+}
+
+.testimonio p{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
 
 
 
+footer{
+	background-color: var(--fondo-footer);
+	padding: 80px 0;
+}
+footer h4{
+	text-transform: uppercase;
+	font-size: 12px;
+	color: var(--color-titulos);
+	letter-spacing: 1px;
+	font-weight: 600;
+}
 
 
 
+#hero-page{
+	padding: 10% 25%;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0,0,0,0.55);
+	background-blend-mode: multiply;
+}
+
+#hero-page h3{
+	font-family: 'Crimson Text';
+	font-style: italic;
+	font-size: 16px;
+}
+#hero-page h1{
+	font-size: 55px;
+	font-weight: 300;
+}
+
+.fondo-contact{
+	background-image: url("../img/bg-contact.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+.fondo-about{
+	background-image: url("../img/hero-about.jpg");
+	background-position: center;
+	background-size: cover;
+}
 
 
 
+.bg-gris{
+	background-color: var(--fondo-gris);
+}
+
+#services-about i{
+	color: var(--color-verde);
+	font-size: 20px;
+}
+
+#services-about h3{
+	font-size: 20px;
+	color: var(--color-titulos);
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+#services-about .row{
+	margin-bottom: 40px;
+}
 
 
+#why .subtitulo{
+	text-align: left;
+}
+#why .titulo{
+	text-align: left;
+}
 
+#team{
+	text-align: center;
+}
 
-
-
-
+#team h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	color: var(--color-titulos);
+	letter-spacing: 1px;
+}
+#team h5{
+	font-style: italic;
+	font-family: 'Crimson Text';
+	font-size: 15px;
+	margin-bottom: 20px;
+}
 
 
 
