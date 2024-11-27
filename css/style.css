@@ -247,8 +247,26 @@ footer h4{
 }
 
 
+.owl-carousel .owl-item img{
+	width: inherit;
+	margin: auto;
+}
 
 
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.owl-carousel .owl-dot.active {
+    background-color: var(--color-verde);
+    border: 0 !important;
+}
 
 
 
